@@ -71,7 +71,7 @@ async def start(message: types.Message):
         
     await message.answer(
         "<b>Привет!</b>\n\n1. Выберите вариант вывода кнопкой ниже.\n"
-        "2. Пришлите список волонтеров (с полем ФИО).\n\n"
+        "2. Пришлите список волонтеров.\n\n"
         f"<i>Сейчас выбран: {user_settings[message.from_user.id]}</i>",
         reply_markup=get_main_keyboard(),
         parse_mode=ParseMode.HTML
