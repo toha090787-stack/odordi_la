@@ -11,7 +11,7 @@ from aiogram.enums import ParseMode
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '8584061439:AAE9rHB23CTeVpYJLeAdval4h_8AIvrUtqI'
+API_TOKEN = '8584061439:AAGddPdM7wkqVT7gVldZgaXCJSYsm-m_iG0'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
